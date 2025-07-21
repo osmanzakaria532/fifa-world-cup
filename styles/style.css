@@ -12,16 +12,15 @@ a {
   text-decoration: none;
 }
 
+img {
+  width: 100%;
+}
+
+.hide {
+  display: none;
+}
+
 /* Common Classes */
-
-.container-width {
-  max-width: 1400px;
-  margin: 0 auto;
-}
-
-.display-flex {
-  display: flex;
-}
 
 .poppins-light {
   font-family: "Poppins", sans-serif;
@@ -65,6 +64,29 @@ a {
   font-style: normal;
 }
 
+.container-width {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #dd0000;
+  padding: 16px 26px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
 /* Header Area */
 
 header {
@@ -85,3 +107,47 @@ nav {
   color: #241a1a;
   font-size: 20px;
 }
+
+/* Banner */
+
+.banner {
+  padding: 50px 0;
+}
+
+.banner-container {
+  justify-content: space-between;
+  align-items: center;
+  background-color: #161616;
+  color: rgb(255, 255, 255);
+  padding: 34px 75px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.banner-contents-text {
+  max-width: 530px;
+}
+
+.banner-contents-text h2 {
+  font-size: 70px;
+  line-height: 80px;
+}
+
+.banner-contents-text p {
+  margin: 20px 0 30px;
+  line-height: 26px;
+}
+
+.banner-btn .btn i  {
+
+  margin-left: 10px;
+}
+
+.banner-img img {
+  display: block;
+}
+
+/*  */
